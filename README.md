@@ -8,7 +8,6 @@ PATHを通す
 ```
 echo export PATH=/Users/【Username】/Library/Python/3.8/bin:$PATH' >> ~/.bash_profile
 source ~/.bash_profile
-
 ```
 setupファイルの作成
 
