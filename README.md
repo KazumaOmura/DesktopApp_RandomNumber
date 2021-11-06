@@ -1,23 +1,23 @@
 # DesktopApp_RandomNumber
 # py2app環境構築
 py2appダウンロード
-```bash
+```
 pip3 install py2app
 ```
 PATHを通す
-```bash
+```
 echo export PATH=/Users/【Username】/Library/Python/3.8/bin:$PATH' >> ~/.bash_profile
 source ~/.bash_profile
 
 ```
 setupファイルの作成
 
-```bash
+```
 py2applet --make-setup app.py
 ```
 setupファイルからappファイル作成
 
-```bash
+```
 python3 setup.py py2app 
 ```
 dist内のファイルを起動して実行
